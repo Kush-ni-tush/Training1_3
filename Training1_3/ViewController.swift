@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         let date = calendar.date( from: dateComponents)
         let weekDay = dateFormatter.string(from: date!)
         resultLabel.text = weekDay
-        
+        print("trainig saving")
     }
    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
        self.view.endEditing(true)
